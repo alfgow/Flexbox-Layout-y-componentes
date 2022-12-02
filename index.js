@@ -6,7 +6,7 @@ var requestOptions = {
 	method: "GET",
 	headers: {
 		"X-Authorization": "vc7t7o5uopriecledy5mrsd7qb3nml",
-		origin: "*",
+		Cookie: "rp=api.easybroker.com; source=api.easybroker.com",
 	},
 	redirect: "follow",
 };
