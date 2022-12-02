@@ -7,6 +7,7 @@ var requestOptions = {
 	headers: {
 		"X-Authorization": "vc7t7o5uopriecledy5mrsd7qb3nml",
 		Cookie: "rp=api.easybroker.com; source=api.easybroker.com",
+		"Access-Control-Allow-Origin": "*",
 	},
 	redirect: "follow",
 };
