@@ -6,7 +6,6 @@ var requestOptions = {
 	method: "GET",
 	headers: myHeaders,
 	redirect: "follow",
-	mode: "no-cors",
 };
 
 fetch("https://api.easybroker.com/v1/properties", requestOptions)
