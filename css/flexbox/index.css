@@ -1,0 +1,48 @@
+@import url(./display-flex.css);
+@import url(./flex-order.css);
+@import url(./flex-direction.css);
+@import url(./flex-wrapp.css);
+@import url(./flex-grow.css);
+@import url(./flex-shrink.css);
+@import url(./justify-content.css);
+@import url(./space-between.css);
+@import url(./align-items.css);
+
+:root {
+    --darkColor: #04001e;
+    --lightColor: #DFFBFF;
+    --primaryColor: #DB086F;
+    --alfgow: #a5c71b;
+}
+
+body {
+    background: var(--darkColor);
+    color: var(--lightColor);
+    font-family: system-ui;
+}
+
+a {
+    color: var(--lightColor);
+}
+
+.wrapper {
+    max-inline-size: 64rem;
+    margin: 0 auto;
+    border: 1px solid var(--alfgow);
+    padding: 1rem;
+}
+
+.box {
+    border: 5px dashed var(--primaryColor);
+    padding: 1rem;
+    counter-increment: flex-items;
+}
+
+.box::after {
+    content: counter(flex-items);
+}
+
+h2 {
+    color: var(--alfgow);
+    text-align: center;
+}

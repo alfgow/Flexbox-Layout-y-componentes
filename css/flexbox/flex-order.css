@@ -1,0 +1,13 @@
+.flexOrder {
+    display: flex;
+    gap: 5rem;
+}
+
+.flexOrder img {
+    border-radius: 50%;
+}
+
+.flexOrder:nth-child(odd) p{
+    order: -1;
+    /* En caso de que el contenedor tenga mas de dos elementos, cada elmento debe tener su order */
+}

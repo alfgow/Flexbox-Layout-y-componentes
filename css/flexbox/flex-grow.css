@@ -1,0 +1,16 @@
+.flexGrow {
+    display: flex;
+}
+
+.flexGrow > * {
+    border: 1px solid red !important;
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 1rem !important;
+}
+
+.flexGrow > p {
+    flex-grow: 1;
+    border: 1px solid green !important;
+    flex-basis: 50px;
+}

@@ -1,0 +1,18 @@
+.spaceBetween {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.spaceBetween > img {
+    border-radius: 50%;
+    block-size: 100px;
+}
+
+.spaceBetween > ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}

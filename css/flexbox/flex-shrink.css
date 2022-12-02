@@ -1,0 +1,21 @@
+.flexShrink {
+    display: flex;
+    background: lightgray;
+}
+
+.flexShrink > * {
+    border: 1px solid red !important;
+}
+
+.flexShrink > img {
+    inline-size: 400px; 
+    /* No toma el tamano tal cual por el shrink, por default esta en "1", debemos pasarlo a "0" */
+    flex-shrink: 0;
+}
+
+.flexShrink > div {
+    flex: 1;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; */
+}
