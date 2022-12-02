@@ -4,7 +4,11 @@ myHeaders.append("Cookie", "rp=api.easybroker.com; source=api.easybroker.com");
 
 var requestOptions = {
 	method: "GET",
-	headers: myHeaders,
+	headers: {
+		"X-Authorization": "vc7t7o5uopriecledy5mrsd7qb3nml",
+		Cookie: "rp=api.easybroker.com; source=api.easybroker.com",
+		"Access-Control-Allow-Origin": "*",
+	},
 	redirect: "follow",
 };
 
